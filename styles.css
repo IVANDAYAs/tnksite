@@ -1,0 +1,659 @@
+html{
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body{
+	overflow: hidden;
+}
+
+#fix{
+	z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+hr{
+	border: 1px solid #007965;
+	opacity: 50%;
+}
+.hr{
+	padding-top: 13%;
+}
+
+/*desktop*/
+
+@media only screen and (min-width:1200px) and (max-width: 2000px){
+/*title*/
+#title{
+	background-color:#f9f871;
+}
+
+.flag{
+	padding:1% 0%;
+	display: block;
+	margin: auto;
+}
+.flag img{
+	float: right;
+	width: 70%;
+	height: auto;
+	-webkit-filter: drop-shadow(0px 5px 5px black);
+}
+.name{
+	padding: 2% 0% 2% 1%;
+	display: block;
+	margin: auto;
+}
+.quote{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+.quote2{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+#title h1{
+	background: -webkit-linear-gradient(yellow 50%,red 50% ,red 60%, green 60% );
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+/*marquee*/
+#run{
+	background-color: #ef4f4f;
+	font-size: 0.8em;
+	color: white;
+}
+
+/*navbar*/
+#nav{
+	background-color: #007965;
+
+}
+
+.dropdown-item{
+	font-size: 0.8em;
+}
+
+.nav-link{
+	color: yellow;
+	font-size: 0.8em;
+}
+.nav-link:hover{
+	color: white;
+}
+
+/*carousel*/
+#slide{
+	padding-top: 17%;
+}
+#slide h5{
+	color: black;
+	font-style: bold;
+}
+#slide p{
+	color: black;
+}
+
+/*cards*/
+#cards{
+	background-color: white /*#007965*/;
+	padding: 5% 7% 7% 7%;
+}
+.topic{
+	text-align: center;
+	color: #007965;
+}
+.icard{
+	padding: 1% 2%;
+	background-color: white /*#007965*/;
+	color: white;
+	display: block;
+	margin: auto;
+	text-align: center;
+
+}
+.card-text{
+	color: black;
+}
+
+.card-img-top{
+	padding:10% 0%;
+}
+
+/*media*/
+#youtube{
+	text-align: center;
+	background-color:#007965;
+}
+.yout{
+	padding: 4% 10% 4% 5%;
+}
+#youtube h4{
+	padding-top: 25%;
+	color:  #f6f5f5;
+}
+#youtube h1{
+	padding-top: 3%;
+}
+.topic1{
+	text-align: center;
+	color: #f9f871;
+	padding-bottom: 0%;
+}
+
+#content{
+	padding: 5% 20%;
+	text-align: justify;
+}
+#content h1{
+	text-align: center;
+	padding-bottom: 3%;
+}
+#content p{
+	padding: 2%;
+	border: 2px solid green;
+  border-radius: 5px;
+}
+
+
+/*footer*/
+#footer{
+	background-color: #f6f5f5;
+	padding: 0.5% 38%;
+	color: black;
+}
+
+}
+
+											/*tablets*/
+@media only screen and (min-width: 992px)and (max-width:1200px){
+/*title*/
+#title{
+	background-color: #f9f871;
+}
+
+.flag{
+	padding:2% 0%;
+	display: block;
+	margin: auto;
+}
+.flag img{
+	float: right;
+}
+.name{
+	padding: 2% 1%;
+	display: block;
+	margin: auto;
+}
+.quote{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+.quote2{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+#title h1{
+	background: -webkit-linear-gradient(yellow 50%,red 50% ,red 60%, green 60% );
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+/*marquee*/
+#run{
+	background-color: #ef4f4f;
+	font-size: 0.8em;
+	color: white;
+}
+
+/*navbar*/
+#nav{
+	background-color: #007965;
+
+}
+
+.dropdown-item{
+	font-size: 0.8em;
+}
+
+.nav-link{
+	color: yellow;
+	font-size: 0.8em;
+}
+.nav-link:hover{
+	color: white;
+}
+
+/*carousel*/
+#slide{
+	padding-top: 10%;
+}
+#slide h5{
+	color: black;
+	font-style: bold;
+}
+#slide p{
+	color: black;
+}
+
+/*cards*/
+#cards{
+	background-color:  #007965;
+	padding: 10% 7% 10% 7%;
+}
+.icard{
+	padding: 1% 2%;
+	background-color:  #007965;
+	color: white;
+	display: block;
+	margin: auto;
+	text-align: center;
+
+}
+.card-img-top{
+	padding: 4% 0%;
+}
+
+/*media*/
+#youtube{
+	text-align: center;
+	background-color:#f4f5db;
+}
+.yout{
+	padding: 4% 10% 4% 5%;
+}
+#youtube h4{
+	padding-top: 25%;
+}
+#youtube h1{
+	padding-top: 3%;
+}
+
+/*footer*/
+#footer{
+	background-color: #007965;
+	padding: 1% 40%;
+	color: white;
+}
+
+
+
+}
+
+
+											/*mobiles phones*/
+@media only screen and (min-width:600px) and (max-width:992px ) {
+/*title*/
+#title{
+	background-color:#f9f871;
+}
+
+.flag{
+	padding:2% 0%;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.flag img{
+	width: 60%;
+	height: auto;
+	float: right;
+	-webkit-filter: drop-shadow(0px 5px 5px black);
+}
+
+.name{
+	padding: 2% 0% 2% 2%;
+	display: block;
+	margin: auto;
+	float: left;
+}
+.quote{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+.quote2{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+#title h1{
+	background: -webkit-linear-gradient(yellow 50%,red 50% ,red 60%, green 60% );
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+  	font-size: 3em;
+}
+
+/*marquee*/
+#run{
+	background-color: #ef4f4f;
+	font-size: 2em;
+	color: white;
+}
+
+/*navbar*/
+#nav{
+	background-color: #007965;
+
+}
+.navbar-toggler-icon{
+	font-size: 3em;
+}
+
+.dropdown-item{
+	font-size: 3em;
+}
+
+.nav-link{
+	color: yellow;
+	font-size: 3em;
+	padding: 3% 0%;
+}
+.nav-link:hover{
+	color: white;
+}
+
+/*carousel*/
+#slide{
+	padding-top: 48.5% ;
+}
+#slide h5{
+	color: black;
+	font-style: bold;
+}
+#slide p{
+	color: black;
+}
+.ci{
+	width: 250%;
+	height: auto;
+	text-align: center;
+}
+.ci img{
+	vertical-align: middle;
+}
+
+/*cards*/
+#cards{
+	background-color:  white;
+	padding: 10% 7% 10% 7%;
+}
+.topic{
+	text-align: center;
+	color: #007965;
+}
+.topic h1{
+	font-size: 4em;
+}
+.icard{
+	padding: 1% 2%;
+	background-color:  white;
+	color: white;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.icard h5{
+	font-size: 3em;
+	padding: 2% 0%;
+}
+.icard p{
+	font-size: 2em;
+	padding: 2% 0%;
+}
+.icard a{
+	font-size: 3em;
+	padding: 2% 2%;
+}
+.card-img-top{
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+.card-text{
+	color: black;
+}
+
+/*media*/
+
+#youtube{
+	text-align: center;
+	background-color:#007965;
+}
+#youtube h4{
+	padding:10% 0%;
+	font-size: 2em;
+	color:  #f6f5f5;
+}
+.topic1{
+	text-align: center;
+	color: black;
+	padding: 7% 0%;
+}
+.topic1 h1{
+	font-size: 4em;
+}
+
+#content{
+	padding: 5% 5%;
+	text-align: justify;
+}
+#content h1{
+	text-align: center;
+	padding-bottom: 3%;
+	font-size: 3em;
+}
+#content p{
+	padding: 2%;
+	border: 2px solid green;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+/*footer*/
+#footer{
+	background-color: white;
+	text-align: center;
+	padding: 1% 0%;
+	color: black;
+}
+
+}
+
+										/*small phones*/
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+/*title*/
+#title{
+	background-color: #f9f871;
+}
+
+.flag{
+	padding:2% 0%;
+	display: block;
+	margin: auto;
+}
+.flag img{
+	float: right;
+}
+.name{
+	padding: 2% 1%;
+	display: block;
+	margin: auto;
+}
+.quote{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+.quote2{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1% 0%;
+	color: red;
+}
+#title h1{
+	background: -webkit-linear-gradient(yellow 50%,red 50% ,red 60%, green 60% );
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+/*marquee*/
+#run{
+	background-color: #ef4f4f;
+	font-size: 0.8em;
+	color: white;
+}
+
+/*navbar*/
+#nav{
+	background-color: #007965;
+
+}
+
+.dropdown-item{
+	font-size: 0.8em;
+}
+
+.nav-link{
+	color: yellow;
+	font-size: 0.8em;
+}
+.nav-link:hover{
+	color: white;
+}
+
+/*carousel*/
+#slide{
+	padding-top: 10%;
+}
+#slide h5{
+	color: black;
+	font-style: bold;
+}
+#slide p{
+	color: black;
+}
+
+/*cards*/
+#cards{
+	background-color:  #007965;
+	padding: 10% 7% 10% 7%;
+}
+.icard{
+	padding: 1% 2%;
+	background-color:  #007965;
+	color: white;
+	display: block;
+	margin: auto;
+	text-align: center;
+
+}
+.card-img-top{
+	padding: 4% 0%;
+}
+
+/*media*/
+
+#youtube{
+	text-align: center;
+	background-color:#f4f5db;
+}
+.yout{
+	padding: 4% 10% 4% 5%;
+}
+#youtube h4{
+	padding-top: 25%;
+}
+#youtube h1{
+	padding-top: 3%;
+}
+
+/*footer*/
+#footer{
+	background-color: #007965;
+	padding: 1% 40%;
+}
+
+
+}
+
+/*@media only screen and (min-width: 992px){
+#title h1{
+	font-size: 3em;
+}
+#title h6{
+	font-size: 0.7em;
+}
+.quote{
+	display: block; 
+	margin: auto;
+	text-align: center;
+}
+.quote2{
+	display: block; 
+	margin: auto;
+	text-align: center;
+}
+.flag{
+	display: block; 
+	margin: auto;
+	text-align: center;
+}
+.flag img{
+	width: 30%;
+	height: auto;
+}
+.name{
+	display: block;
+	margin: auto;
+	text-align: center;
+
+}
+
+#slide{
+	padding-top: 60%;
+}
+
+.card-img-top{
+	width: 60%;
+	height: auto;
+}
+.icard{
+	padding-bottom: 15%;
+}
+#youtube{
+	padding: 4% 5%;
+}
+#youtube h1{
+	font-size: 0.9em;
+}
+
+
+
+}*/
